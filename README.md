@@ -20,7 +20,7 @@ This repository contains a template for initializing a new Python project. It pr
 2. **Create a Virtual Environment**
    Set up a virtual environment to manage project dependencies.
    ```bash
-   python -m venv ven
+   python -m venv venv
    
 3. **Activate the Virtual Environment**
    On Windows:
