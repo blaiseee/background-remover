@@ -4,6 +4,8 @@ This repository contains a template for initializing a new Python project. It pr
 
 ## Getting Started
 
+my_python_project/ ├── venv/ # Virtual environment ├── main.py # Main script file ├── README.md # Project documentation ├── requirements.txt # Project dependencies └── .gitignore # Files and directories to ignore in Git
+
 ### Prerequisites
 
 - **Python 3.12** or higher
@@ -16,3 +18,4 @@ This repository contains a template for initializing a new Python project. It pr
    ```bash
    git clone https://github.com/blaiseee/background-remover.git
    cd background-remover
+
