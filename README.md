@@ -4,8 +4,6 @@ This repository contains a template for initializing a new Python project. It pr
 
 ## Getting Started
 
-my_python_project/ ├── venv/ # Virtual environment ├── main.py # Main script file ├── README.md # Project documentation ├── requirements.txt # Project dependencies └── .gitignore # Files and directories to ignore in Git
-
 ### Prerequisites
 
 - **Python 3.12** or higher
@@ -18,4 +16,28 @@ my_python_project/ ├── venv/ # Virtual environment ├── main.py # Mai
    ```bash
    git clone https://github.com/blaiseee/background-remover.git
    cd background-remover
+
+2. **Create a Virtual Environment**
+   Set up a virtual environment to manage project dependencies.
+   ```bash
+   python -m venv ven
+   
+3. **Activate the Virtual Environment**
+   On Windows:
+   ```bash
+   venv\Scripts\activate
+   ```
+   On Mac/Linux:
+   ```bash
+   source venv\bin\activate
+   
+4. **Install Dependencies**
+   Install any required dependencies, or if you have a "requirements.txt" use:
+   ```bash
+   pip install -r requirements.txt
+   
+5. **Run the Project**
+   Run the main script to verify the setup:
+   ```bash
+   python main.py
 
